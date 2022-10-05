@@ -1,147 +1,97 @@
-.box{
-    display:grid;
-    border-radius: 2px solid white;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    height: 600px;
-    width: 800px;
-    margin-left: 22%;
-    margin-top: 1;
-}
+body{
+    margin: auto;
+    width: 900px;
+    height: 550px;
+    border-style: solid;
+    border: 5px solid black;
+    margin-top: 50px; 
 
-.rect1{
-    grid-row-start: 1 ;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    background-color:palevioletred;
-    border: 3px solid white;
-}
 
-.rect2{
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-row-end: 1;
-    background-color:brown;
-    border:3px solid white;
 }
+h1{
+    margin: center;
+    border-style: solid;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
 
-.rect3{
-    grid-row-start: 1;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    background-color: red;
-    border: 3px solid white;
 }
+p{
+    margin: center;
+    border-style: solid;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: -20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+height: 100px;
+padding-top: 50px;
+color: azure;
 
-.rect4{
-    grid-row-start: 1;
-    grid-column-start: 5;
-    grid-column-end: 5;
-    background-color:rgb(33, 85, 182);
-    border: 3px solid white;
 }
+ul{
+    margin: auto;
+    height: 150px;
+    width:auto;
+    border-style: solid;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
 
-.rect5{
-    grid-row-start: 1;
-    grid-column-start: 6;
-    grid-row-end: 6;
-    background-color:white;
-    border: 3px solid white;
+    
+
 }
-
-.rect6{
-    grid-row-start: 3;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    background-color:palevioletred ;
-    border: 3px solid white;
+li{
+    margin: center;
+    border-style: solid;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+strong{
+    margin: center;
+    border-style: solid;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
 
-.rect7{
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-row-end: 4;
-    background-color:gold;
-    border: 3px solid white;
+
 }
+a{
+    margin: center;
+    border-style: solid;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
 
-.rect8{
-    grid-row-start: 2;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-end: 5;
-    background-color: white;
-    broder: 3px solid white;
+   
 }
+.p1{
+  margin-left :30px;
+  margin-top: 60px;
+  padding-top: 50px;
+  color: azure;
 
-.rect9{
-    grid-row-start: 2;
-    grid-column-start: 5;
-    grid-row-end: 4;
-    background-color: gold;
-    border: 3px solid white;
+ 
 }
-
-.rect10{
-    grid-row-start: 4;
-    grid-column-start: 1;
-    grid-row-end: 6;
-    background-color: gold;
-    border: 3px solid white;
-}
-
-.rect11{
-    grid-row-start: 4;
-    grid-column-start: 2;
-    grid-row-end: 5;
-    background-color: rgb(33, 85, 182);
-    border: 3px solid white;
-}
-
-.rect12{
-    grid-row-start: 4;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    background-color:brown;
-    border:3px solid white;
-}
-
-.rect13{
-    grid-row-start: 4;
-    grid-column-start: 3;
-    grid-column-end: 3;
-    background-color:palevioletred;
-    border:3px solid white;
-}
-
-.rect14{
-    grid-row-start: 5;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border:3px solid white;
-    background-color:palevioletred;
-}
-
-.rect15{
-    grid-row-start: 5;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    background-color: gold;
-    border: 3px solid white;
-}
-
-.rect16{
-    grid-row-start: 5;
-    grid-column-start: 5;
-    grid-column-end: 6;
-    background-color:palevioletred;
-    border: 3px solid white;
-}
-
-.rect17{
-    grid-row-start: 5;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    background-color: rgb(33, 85, 182);
-    border: 3px solid white;
+.button{
+  width: 100px;
+  height: 30px;
+  color:bisque;
+  background-color:rgb(68, 64, 64);
+  border: 2px;
+  border-style: inset;
 }
